@@ -72,7 +72,7 @@ a {text-decoration: none;}
 
 .image1 p, .image2 p, .image3 p {font-style: italic;}
 
-.image1 p a, .image2 p a, .image3 p a {color: darkturquoise;}
+.image1 p a, .image2 p a, .image3 p a {color: royalblue;}
 
 address {max-width: 100%;}
 
@@ -96,7 +96,7 @@ footer {padding: 25px;}
 .fc {background-color: #051094;
     color: lemonchiffon;}
 
-#ft2 a, #ft3 a {color: orangered;
+#ft2 a, #ft3 a {color: #FAFAD2;
                 font-weight: bold;
                 text-align: center;
                 padding: 5px;
