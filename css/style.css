@@ -104,8 +104,8 @@ footer {padding: 25px;}
 
 img {padding: 1px;}
 
-form {background-color: gold;
-    border: round 5px lemonchiffon;}
+form {background-color: lemonchiffon;
+    border: round 5px gold;}
 
 #formp {font-style: italic;
         color: navy;}
