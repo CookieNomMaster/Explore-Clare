@@ -104,16 +104,16 @@ footer {padding: 25px;}
 
 img {padding: 1px;}
 
-form {background-color: cyan;
+form {background-color: gold;
     border: round 5px lemonchiffon;}
 
 #formp {font-style: italic;
-        color: #CC7722;}
+        color: navy;}
 
 #submit {text-align: center;}
 
 legend {font-weight: bold;
-        color: #EBA800;}
+        color: darkturquoise;}
 
 /*there is an example of border*/
 #submit {color: crimson;
