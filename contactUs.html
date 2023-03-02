@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title> Contact Us - Clare </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/Clare_Flag.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora | Zilla Slab">
+    
+    <script>
+    
+    function myFunction() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "navbar") {
+        x.className += " responsive";
+        } else {
+        x.className = "navbar";
+        }
+    }
+    
+    </script>
+    
+</head>
+
+<body>
+        
+<div class="gridContain">
+    
+    <!--    Introduction Section of Contact Us Page -->
+    
+    <div class="logo">
+        <a href="https://www.clare.ie/"><img src="images/Clare_Flag.jpg" alt="Flag of Clare"></a>
+    </div>
+    
+    <nav class="navbar" id="myNavbar">
+        <a href="contactUs.html">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="#">News</a>
+        <a href="#">English</a>
+        <a href="#"> Gaeilge</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+    </nav>
+    
+    <div class="begin">
+        <h1> Newsletter Form</h1>
+        <p> Is there something of confusion? Was something complicated or diificult to understand? Is it a whole different trouble? Please contact us with the form below. </p>
+    </div>
+        
+    <!--    Form Section of Contact Us Page -->
+    
+    <div class="form">
+        
+    <form action="http://litstudentprojects.net/rdwd-newsletter-response.php" method="post">
+        
+        <fieldset>
+            
+            <legend>Newsletter</legend>
+            
+            <p id="formp">Want to be informed? Sign up to our newsletter!</p>
+            
+            <ul>
+                <li><label class="col1" for="first_name">First Name:* </label><input type="text" name="first_name" id="first_name"></li>
+                <li><label class="col2" for="last_name">Last Name:* </label><input type="text" name="last_name" id="address"></li>
+                <li><label class="col3" for="email1">Email:* </label><input type="email" name="email1" id="email1"></li>
+                <li><label class="col4" for="email2">Retype your Email:* </label><input type="email" name="email2" id="email2"></li>
+                <li><label class="col5" for="phone"> Telephone:* </label><input type="text" name="phone" id="phone"></li>
+            </ul>
+                
+                <fieldset id="check"><legend>Your Interest? (please tick all that apply) </legend>
+                <p> 
+                <label id="label"> <input type="checkbox" name="interest[]" value="todo"> Things To Do </label>
+                </p>
+                <p>
+                <label id="label"> <input type="checkbox" name="interest[]"  value="hiking"> Hiking and Walking </label>
+                </p>
+                <p>
+                <label id="label"> <input type="checkbox" name="interest[]"  value="events"> Events </label>
+                </p>
+                <p>
+                <label id="label"> <input type="checkbox" name="interest[]"  value="accomodation"> Places to Stay </label>
+                </p>
+                <p>
+                <label id="label"> <input type="checkbox" name="interest[]"  value="dining"> Places to Eat </label>
+                </p>
+                </fieldset>
+            
+            <p><input type="submit" value="Continue!" id="submit"></p>
+            
+            <p><i>*required fields</i></p>
+            
+        </fieldset>
+    
+        <br>
+        
+        <input type="hidden" name="tourism" value="Explore County Clare">
+        
+    </form>   
+        
+    </div>
+
+</div>    
+    
+    <!--    Footer Section of Contact Us Page -->
+    
+<footer class="fc"> 
+
+            
+    <div id="ft1">
+				
+	   <a href="https://www.clare.ie/"><img src="images/Clare_Flag.jpg" alt="Flag of Clare"></a>
+            	
+    </div>
+
+    <div id="ft2">
+	   <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="#">News</a></li>
+           <li><a href="contactUs.html">Contact</a></li>
+           <li><a href="#">English</a></li>
+           <li><a href="#"> Gaeilge</a></li>
+	   </ul>
+    </div>
+    
+    <div id="ft3">
+	   <address>Website created by MD Samiur Rahman Kazi, a student of TUS, for Responsive Design & Web Development
+                Email the author:<a href="mailto:k00279803@student.lit.ie"> k00279803@student.lit.ie</a></address>
+    </div>
+		
+</footer>
+    
+</body>
+    
+</html>
